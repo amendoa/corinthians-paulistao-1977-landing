@@ -125,7 +125,11 @@ module.exports = {
 		new CleanWebpackPlugin(),
 		new CopyWebpackPlugin([
 			{
-				from: './app/assets/images/favicon.ico',
+				from: './app/assets/public/fonts/',
+				to: './assets/fonts'
+			},
+			{
+				from: './app/assets/public/images/',
 				to: './assets/images'
 			}
 		]),

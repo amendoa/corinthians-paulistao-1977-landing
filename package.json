@@ -42,5 +42,8 @@
     },
     "author": "Matheus Almeida",
     "license": "MIT",
-    "homepage": "https://bitbucket.org/amendowins/paulistao-1977-timao-landing#readme"
+    "homepage": "https://bitbucket.org/amendowins/paulistao-1977-timao-landing#readme",
+    "dependencies": {
+        "animejs": "^3.0.1"
+    }
 }
