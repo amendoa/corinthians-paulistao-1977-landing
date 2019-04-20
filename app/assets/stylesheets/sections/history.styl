@@ -1,38 +1,37 @@
-.history-item
-    .paragraph-container
-        .paragraph
-            font-size: 16px
-            color: $brand-secondary
-    .image
-        width: 100%;
-
-    .capital-letter
-        color: $brand-primary
-        font-size: 54px
-        line-height: 46px
-        margin-right: 6px
-        text-transform: uppercase
-        float: left
-
-.photos-item
-    .image
-        margin: 12px 0px 12px 0px;
-        width: 100%;
-
-@media (max-width: $bd-sm - 1)
-    .history-item
-        .paragraph-container
-            margin: 36px 0px 36px 0px
-        .image
-            margin: 36px 0px 36px 0px
-
-    .history-title
-        margin: 96px 0px 40px 0px
-
-@media (min-width: $bd-sm)
+.section-history
     .history-item
         .paragraph-container
             .paragraph
-                padding: 0px 40px 0px 40px
-    .history-title
-        margin: 168px 0px 88px 0px
+                font-size: 16px
+                color: $brand-secondary
+        .image
+            width: 100%
+
+        .capital-letter
+            color: $brand-primary
+            font-size: 54px
+            line-height: 46px
+            margin-right: 6px
+            text-transform: uppercase
+            float: left
+
+    .photos-item
+        .image
+            margin: 12px 0px 12px 0px
+            width: 100%
+
+@media (max-width: $bd-sm - 1)
+    .section-history
+        .history-item
+            .paragraph-container
+                margin: 36px 0px 36px 0px
+            .image
+                margin: 36px 0px 36px 0px
+
+        .history-title
+            margin: 96px 0px 40px 0px
+
+@media (min-width: $bd-sm)
+    .section-history
+        .history-title
+            margin: 168px 0px 88px 0px
