@@ -94,38 +94,32 @@ export default (scrollMagicController) => {
             }
         },
         {
-            trigger: ".photos-item",
+            trigger: ".item-V-target",
             target: ".image-I",
             from: {
-                x: -30,
                 opacity: 0.1
             },
             to: {
-                x: 0,
                 opacity: 1
             }
         },
         {
-            trigger: ".photos-item",
+            trigger: ".item-V-target",
             target: ".image-II",
             from: {
-                y: 60,
                 opacity: 0.1
             },
             to: {
-                y: 0,
                 opacity: 1
             }
         },
         {
-            trigger: ".photos-item",
+            trigger: ".item-V-target",
             target: ".image-III",
             from: {
-                x: -30,
                 opacity: 0.1
             },
             to: {
-                x: 0,
                 opacity: 1
             }
         }
@@ -142,7 +136,8 @@ export default (scrollMagicController) => {
         TweenMax.set(target, from);
    
         new ScrollMagic.Scene({
-            triggerElement: trigger
+            triggerElement: trigger,
+            duration: 1000
         })
             .setTween(target, 1, {
                 ...to,
