@@ -11,7 +11,7 @@
         "start": "NODE_ENV=dev webpack-dev-server --mode development --open --host 0.0.0.0",
         "build": "NODE_ENV=prod webpack --mode production",
         "deploy": "yarn build && mv build/index.html build/200.html && surge build https://timao-paulistao-1977.surge.sh",
-        "drop": "surge teardown https://timao-paulistao-1977.surge.sh"
+        "teardown": "surge teardown https://timao-paulistao-1977.surge.sh"
     },
     "devDependencies": {
         "@babel/core": "^7.4.3",

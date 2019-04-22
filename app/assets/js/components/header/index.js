@@ -15,9 +15,10 @@ import {
             "/assets/sounds/soundtrack.mp3"
         ],
         loop: true,
-        volume: 0.1,
-        // autoplay: true
+        volume: 0.1
     });
+
+    // soundTrack.play();
 
     const muteButton = document.getElementById("mute-button");
 
@@ -33,12 +34,12 @@ import {
         }
     });
 
-    TweenMax.from(".nav", 1, {
+    TweenMax.from(".header", 1, {
         y: -70,
         ease: Power2.easeOut    
     });
 
-    TweenMax.to(".nav", 1,  {
+    TweenMax.to(".header", 1,  {
         y: 0,
         ease: Power2.easeOut
     });

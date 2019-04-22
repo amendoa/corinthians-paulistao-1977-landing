@@ -1,6 +1,6 @@
 import ScrollMagic from "scrollmagic";
 import "animation.gsap";
-import "assets/js/components/nav";
+import "assets/js/components/header";
 import "assets/stylesheets/index.styl";
 import historySection from "assets/js/sections/history";
 import homeSection from "assets/js/sections/home";

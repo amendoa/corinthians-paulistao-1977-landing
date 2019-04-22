@@ -18,8 +18,8 @@ export default (scrollMagicController) => {
 
     const historyItems = [
         {
-            trigger: ".item-II-target",
-            target: ".history-item.item-II",
+            trigger: ".history-title.item-II",
+            target: ".history-item.item-II .image, .history-item.item-II .paragraph",
             from: {
                 y: 70,
                 opacity: 0.1
@@ -30,7 +30,7 @@ export default (scrollMagicController) => {
             }
         },
         {
-            trigger: ".item-II-target",
+            trigger: ".history-title.item-II",
             target: ".history-title.item-II",
             from: {
                 y: -30
@@ -40,8 +40,8 @@ export default (scrollMagicController) => {
             }
         },
         {
-            trigger: ".item-III-target",
-            target: ".history-item.item-III",
+            trigger: ".history-title.item-III",
+            target: ".history-item.item-III .image, .history-item.item-III .paragraph",
             from: {
                 y: 70,
                 opacity: 0.1
@@ -52,7 +52,7 @@ export default (scrollMagicController) => {
             }
         },
         {
-            trigger: ".item-III-target",
+            trigger: ".history-title.item-III",
             target: ".history-title.item-III",
             from: {
                 y: -30
@@ -62,8 +62,8 @@ export default (scrollMagicController) => {
             }
         },
         {
-            trigger: ".item-IV-target",
-            target: ".history-item.item-IV",
+            trigger: ".history-title.item-IV",
+            target: ".history-item.item-IV .image, .history-item.item-IV .paragraph",
             from: {
                 y: 70,
                 opacity: 0.1
@@ -74,7 +74,7 @@ export default (scrollMagicController) => {
             }
         },
         {
-            trigger: ".item-IV-target",
+            trigger: ".history-title.item-IV",
             target: ".history-title.item-IV",
             from: {
                 y: -30
@@ -84,7 +84,7 @@ export default (scrollMagicController) => {
             }
         },
         {
-            trigger: ".item-V-target",
+            trigger: ".history-title.item-V",
             target: ".history-title.item-V",
             from: {
                 y: -30
@@ -94,28 +94,8 @@ export default (scrollMagicController) => {
             }
         },
         {
-            trigger: ".item-V-target",
-            target: ".image-I",
-            from: {
-                opacity: 0.1
-            },
-            to: {
-                opacity: 1
-            }
-        },
-        {
-            trigger: ".item-V-target",
-            target: ".image-II",
-            from: {
-                opacity: 0.1
-            },
-            to: {
-                opacity: 1
-            }
-        },
-        {
-            trigger: ".item-V-target",
-            target: ".image-III",
+            trigger: ".history-title.item-V",
+            target: ".photos-item .image",
             from: {
                 opacity: 0.1
             },
