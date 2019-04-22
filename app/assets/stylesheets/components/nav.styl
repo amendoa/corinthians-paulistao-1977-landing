@@ -1,3 +1,35 @@
+.audio-bars
+    .bar
+        display: inline-block
+        margin: 1px
+        width: 2.2px
+        animation: bars 1.1s infinite ease-in-out
+        background: $brand-primary
+
+        &:nth-child(1)
+            height: 12px
+            animation-delay: -0.3s
+
+        &:nth-child(2)
+            height: 8px
+            animation-delay: -0.4s
+
+        &:nth-child(3)
+            height: 10px
+            animation-delay: -0.7s
+
+        &:nth-child(4)
+            height: 7px
+            animation-delay: -0.8s
+
+        &:nth-child(5)
+            height: 12px
+
+    &.is-muted
+        .bar
+            animation: none
+            height 8px
+
 .nav
     width: 100%
     padding-top: 64px
@@ -5,10 +37,4 @@
     .logo
         width: 56px
         height: 56px
-        display: block
-
-    .menu
-        width: 50px
-        height: 50px
-        background-color: blue
         display: block

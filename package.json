@@ -44,6 +44,8 @@
     "license": "MIT",
     "homepage": "https://bitbucket.org/amendowins/paulistao-1977-timao-landing#readme",
     "dependencies": {
-        "animejs": "^3.0.1"
+        "gsap": "^2.1.2",
+        "howler": "^2.1.2",
+        "scrollmagic": "^2.0.6"
     }
 }
