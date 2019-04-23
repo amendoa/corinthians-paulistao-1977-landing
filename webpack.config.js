@@ -42,9 +42,9 @@ const getJsLoaders = () => {
     ];
 
     if (!isDevEnvironment) {
-        loaders.push({
-            loader: "eslint-loader"
-        });
+        // loaders.push({
+        //     loader: "eslint-loader"
+        // });
     }
 
     return loaders;
@@ -58,7 +58,7 @@ module.exports = {
         publicPath: "/"
     },
     resolve: {
-        modules: [path.resolve(__dirname, "./app"), "node_modules"],
+        modules: [path.resolve(__dirname, "./app/assets"), "node_modules"],
         alias: {
             "TweenMax": path.resolve("node_modules", "gsap/src/uncompressed/TweenMax.js"),
             "TimelineMax": path.resolve("node_modules", "gsap/src/uncompressed/TimelineMax.js"),

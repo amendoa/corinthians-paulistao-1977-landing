@@ -5,12 +5,12 @@ import {
 
 export default () => {
     TweenMax.from(".home-title-trigger", 1, {
-        y: -70,
+        y: -15,
         ease: Power2.easeOut    
     });
 
     TweenMax.from(".home-desc-trigger", 1, {
-        y: 30,
+        y: 15,
         ease: Power2.easeOut
     });
 

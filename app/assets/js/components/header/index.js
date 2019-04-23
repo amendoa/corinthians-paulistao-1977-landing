@@ -7,7 +7,7 @@ import {
     Power2
 } from "gsap/TweenMax";
 
-(() => {
+export default () => {
     let soundIsPlaying = true;
 
     const soundTrack = new Howl({
@@ -35,7 +35,7 @@ import {
     });
 
     TweenMax.from(".header", 1, {
-        y: -70,
+        y: -15,
         ease: Power2.easeOut    
     });
 
@@ -43,5 +43,4 @@ import {
         y: 0,
         ease: Power2.easeOut
     });
-
-})();
+};

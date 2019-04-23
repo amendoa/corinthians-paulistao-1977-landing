@@ -9,8 +9,9 @@ html(lang='pt-br')
         meta(name='theme-color', content='#000000')
         link(rel='shortcut icon', href='/assets/images/favicon.ico')
 
-    body
+    body(class="is-loading")
         div(class="bootstrap-wrapper")
+            include templates/components/pre-load.pug
             include templates/components/header.pug
             include templates/sections/home.pug
             include templates/sections/history.pug

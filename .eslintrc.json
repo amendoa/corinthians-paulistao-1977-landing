@@ -33,5 +33,15 @@
             "error",
             "always"
         ]
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "moduleDirectory": [
+                    "node_modules",
+                    "app/assets"
+                ]
+            }
+        }
     }
 }

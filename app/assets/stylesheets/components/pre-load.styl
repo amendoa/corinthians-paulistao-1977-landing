@@ -1,0 +1,26 @@
+.preload-container
+    z-index: 1
+    width: 100%
+    height: 100%
+    position: absolute
+    background: $brand-primary
+    top: 0
+    left: 0
+
+    &.hided
+        display: none
+
+    .logo
+        height: 120px
+        fill: $brand-default
+        stroke: none
+
+    .container, .row
+        height: 100%
+
+    .loading-bar
+        background: $brand-default
+        width: 1%
+        height: 12px
+        margin-bottom: 32px
+        transition: all 0.7s ease
