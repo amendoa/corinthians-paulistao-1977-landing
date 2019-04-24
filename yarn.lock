@@ -5213,10 +5213,10 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.5, postcss@^7.0.6:
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-preload-it@^1.2.2:
+preloader.js@^1.2.2:
   version "1.2.2"
-  resolved "https://registry.yarnpkg.com/preload-it/-/preload-it-1.2.2.tgz#ca4f8daf6e363bb8a1eecc695462edc47ab90b2e"
-  integrity sha512-uBA73//J5GhvqX1pjRt0biAaWZI8xQPj+3BfAZw88muguEV0khAgoPoE8AKKbhPaR2uy1qUDldExAB4kIcrugQ==
+  resolved "https://registry.yarnpkg.com/preloader.js/-/preloader.js-1.2.2.tgz#5f71b431fd87f44531c91304bc95fb2578e3ce07"
+  integrity sha512-O5sQMKEVXIZ2a0bNlUv+zV89/2/AsSXSA5u1cRywq93smC5c0OcUrz1RmfgtvI3sZSM7OAZ0NbVuRoyTAaKubA==
 
 prelude-ls@~1.1.2:
   version "1.1.2"

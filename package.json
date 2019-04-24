@@ -15,6 +15,7 @@
     },
     "devDependencies": {
         "@babel/core": "^7.4.3",
+        "@babel/plugin-transform-arrow-functions": "^7.2.0",
         "@babel/preset-env": "^7.3.4",
         "autoprefixer": "^9.4.10",
         "babel-eslint": "^10.0.1",
@@ -48,7 +49,7 @@
     "dependencies": {
         "gsap": "^2.1.2",
         "howler": "^2.1.2",
-        "preload-it": "^1.2.2",
+        "preloader.js": "^1.2.2",
         "scrollmagic": "^2.0.6"
     }
 }

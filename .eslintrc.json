@@ -10,7 +10,8 @@
         "require": true,
         "process": true,
         "module": true,
-        "__dirname": true
+        "__dirname": true,
+        "define": true
     },
     "parserOptions": {
         "ecmaVersion": 2018,

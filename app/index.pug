@@ -1,17 +1,17 @@
 doctype html
-html(lang='pt-br')
+html(lang="pt-br")
     head
-        title sccp
-        meta(charset='UTF-8')
-        meta(http-equiv='X-UA-Compatible', content='IE=edge')
-        meta(name='viewport', content='width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no')
-        meta(name='description', content='Campeonato Paulista 1977')
-        meta(name='theme-color', content='#000000')
-        link(rel='shortcut icon', href='/assets/images/favicon.ico')
+        title Coringão
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no")
+        meta(name="description", content="SCCP - Campeão Paulista de 1977")
+        meta(name="theme-color", content="#212121")
+        link(rel="shortcut icon", href="/assets/images/favicon.ico")
 
     body(class="is-loading")
         div(class="bootstrap-wrapper")
-            include templates/components/pre-load.pug
             include templates/components/header.pug
+            include templates/components/pre-load.pug
             include templates/sections/home.pug
             include templates/sections/history.pug

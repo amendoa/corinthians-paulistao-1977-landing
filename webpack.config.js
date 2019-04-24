@@ -42,9 +42,9 @@ const getJsLoaders = () => {
     ];
 
     if (!isDevEnvironment) {
-        // loaders.push({
-        //     loader: "eslint-loader"
-        // });
+        loaders.push({
+            loader: "eslint-loader"
+        });
     }
 
     return loaders;

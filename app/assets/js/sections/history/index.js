@@ -3,24 +3,13 @@ import {
     Power2
 } from "gsap/TweenMax";
 
-import {
-    getFile
-} from "js/modules/utils";
-
 import ScrollMagic from "scrollmagic";
 
-export default (scrollMagicController, preload) => {
+export default (scrollMagicController) => {
     init();
     
-
     function init () {
         setAnimations();
-        setImagesSrc();
-    }
-
-    function setImagesSrc () {
-        // console.log(preload.getItemByUrl(getFile("images/image1.jpg")).blobUrl);
-        // console.log(preload.getItemByUrl(getFile("images/image2.jpg")).blobUrl);
     }
 
     function setAnimations () {

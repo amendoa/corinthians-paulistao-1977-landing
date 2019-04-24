@@ -1,24 +1,12 @@
 import {
-    Howl
-} from "howler";
-
-import {
     TweenMax,
     Power2
 } from "gsap/TweenMax";
 
-export default () => {
+export default (soundTrack) => {
     let soundIsPlaying = true;
 
-    const soundTrack = new Howl({
-        src: [
-            "/assets/sounds/soundtrack.mp3"
-        ],
-        loop: true,
-        volume: 0.1
-    });
-
-    // soundTrack.play();
+    soundTrack.play();
 
     const muteButton = document.getElementById("mute-button");
 
@@ -36,10 +24,10 @@ export default () => {
 
     TweenMax.from(".header", 1, {
         y: -15,
-        ease: Power2.easeOut    
+        ease: Power2.easeOut
     });
 
-    TweenMax.to(".header", 1,  {
+    TweenMax.to(".header", 1, {
         y: 0,
         ease: Power2.easeOut
     });
