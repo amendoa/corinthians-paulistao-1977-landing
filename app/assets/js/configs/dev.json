@@ -1,7 +1,6 @@
 {
     "files_to_load": [
         "/assets/sounds/soundtrack.mp3",
-        "/assets/sounds/soundtrack.ogg",
         "/assets/images/image1.jpg",
         "/assets/images/image2.jpg",
         "/assets/images/image3.jpg",

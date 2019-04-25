@@ -1,11 +1,11 @@
 {
     "name": "paulistao-1977-timao-landing",
     "version": "1.0.0",
-    "description": "Vibo landing page",
+    "description": "Sport Club Corinthians Paulista",
     "main": "webpack.config.js",
     "repository": {
         "type": "git",
-        "url": "git+https://amendowins@bitbucket.org/amendowins/paulistao-1977-timao-landing.git"
+        "url": "git+https://github.com/almeida-matheus/corinthians-paulistao-1977-landing.git"
     },
     "scripts": {
         "start": "NODE_ENV=dev webpack-dev-server --mode development --open --host 0.0.0.0",
@@ -45,7 +45,7 @@
     },
     "author": "Matheus Almeida",
     "license": "MIT",
-    "homepage": "https://bitbucket.org/amendowins/paulistao-1977-timao-landing#readme",
+    "homepage": "https://github.com/almeida-matheus/corinthians-paulistao-1977-landing",
     "dependencies": {
         "gsap": "^2.1.2",
         "howler": "^2.1.2",

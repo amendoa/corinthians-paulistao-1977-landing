@@ -23,8 +23,7 @@ preloader.addProgressListener((loaded, length) => document.getElementById("progr
 preloader.addCompletionListener(() => {
     const soundTrack = new Howl({
         src: [
-            "/assets/sounds/soundtrack.mp3",
-            "/assets/sounds/soundtrack.ogg"
+            "/assets/sounds/soundtrack.mp3"
         ],
         loop: true,
         volume: 0.1

@@ -1,29 +1,28 @@
-# README #
+# É o Coringão
+Sport Club Corinthians Paulista - Campeão Paulista de 1977
 
-This README would normally document whatever steps are necessary to get your application up and running.
+### Files
+[timao.xd]()
 
-### What is this repository for? ###
+### Demo
+https://timao-paulistao-1977.surge.sh
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+![Demo](gif)
 
-### How do I get set up? ###
+https://timao-paulistao-1977.surge.sh
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+#### Relevant Libs/Frameworks that i'm using
+- gsap
+- scrollmagic
 
-### Contribution guidelines ###
+# Commands
 
-* Writing tests
-* Code review
-* Other guidelines
+Run dev server
+```sh
+$ yarn install
+$ yarn start
+```
 
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+Create a prod build
+```sh
+$ yarn build
